@@ -1,0 +1,33 @@
+//
+//  Prefix header
+//
+//  The contents of this file are implicitly included at the beginning of every source file.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+#endif
+
+
+#define KMargin 10
+#define KWidth 30
+#define KHeight 30
+#define KDocument [NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES) firstObject]
+#define K_MAINSCREEN ([UIScreen mainScreen])
+#define K_MAINSCREEN_WIDTH ([UIScreen mainScreen].bounds.size.width)
+#define K_MAINSCREEN_HEIGHT ([UIScreen mainScreen].bounds.size.height)
+#define KImageWidth 70
+#define KImageHeight 90
+#define K_MAINCOLOR ([UIColor colorWithRed:255/255.0 green:160/255.0 blue:160/255.0 alpha:1.0])
+#define K_TEXTCOLOR ([UIColor colorWithRed:255/255.0 green:128/255.0 blue:255/255.0 alpha:1.0])
+#define K_MAINBACKGROUNDCOLOR ([UIColor colorWithRed:255/255.0 green:220/255.0 blue:220/255.0 alpha:1.0])
+
+#define K_TITLECOLOR ([UIColor colorWithRed:88/255. green:88/255. blue:88/255. alpha:1.f])
+#define UmengAppkey @"5211818556240bc9ee01db2f"
