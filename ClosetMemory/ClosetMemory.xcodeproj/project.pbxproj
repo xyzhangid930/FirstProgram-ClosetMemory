@@ -52,12 +52,12 @@
 		63B1B065195DA8DB002EC278 /* LDQPerosnDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B1B064195DA8DB002EC278 /* LDQPerosnDetailsViewController.m */; };
 		63B1B068195DA8F4002EC278 /* LDQPersonDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 63B1B067195DA8F4002EC278 /* LDQPersonDetails.m */; };
 		C21F852F195819500035DAC7 /* WSPersonModel.m in Sources */ = {isa = PBXBuildFile; fileRef = C21F852E195819500035DAC7 /* WSPersonModel.m */; };
+		C22FB28A1960F3E00020C9F4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C22FB2891960F3E00020C9F4 /* Default.png */; };
 		C2375565195127D900146C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375564195127D900146C3D /* Foundation.framework */; };
 		C2375567195127D900146C3D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375566195127D900146C3D /* CoreGraphics.framework */; };
 		C2375569195127D900146C3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375568195127D900146C3D /* UIKit.framework */; };
 		C237556F195127D900146C3D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C237556D195127D900146C3D /* InfoPlist.strings */; };
 		C2375571195127D900146C3D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C2375570195127D900146C3D /* main.m */; };
-		C2375577195127D900146C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2375576195127D900146C3D /* Images.xcassets */; };
 		C237557E195127D900146C3D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C237557D195127D900146C3D /* XCTest.framework */; };
 		C237557F195127D900146C3D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375564195127D900146C3D /* Foundation.framework */; };
 		C2375580195127D900146C3D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2375568195127D900146C3D /* UIKit.framework */; };
@@ -297,6 +297,7 @@
 		63B1B067195DA8F4002EC278 /* LDQPersonDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LDQPersonDetails.m; sourceTree = "<group>"; };
 		C21F852D195819500035DAC7 /* WSPersonModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSPersonModel.h; sourceTree = "<group>"; };
 		C21F852E195819500035DAC7 /* WSPersonModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSPersonModel.m; sourceTree = "<group>"; };
+		C22FB2891960F3E00020C9F4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		C2375561195127D900146C3D /* ClosetMemory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClosetMemory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2375564195127D900146C3D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C2375566195127D900146C3D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -305,7 +306,6 @@
 		C237556E195127D900146C3D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C2375570195127D900146C3D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C2375572195127D900146C3D /* ClosetMemory-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ClosetMemory-Prefix.pch"; sourceTree = "<group>"; };
-		C2375576195127D900146C3D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C237557C195127D900146C3D /* ClosetMemoryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClosetMemoryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C237557D195127D900146C3D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		C2375585195127D900146C3D /* ClosetMemoryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ClosetMemoryTests-Info.plist"; sourceTree = "<group>"; };
@@ -734,7 +734,6 @@
 			isa = PBXGroup;
 			children = (
 				C237559319512CC100146C3D /* Classes */,
-				C2375576195127D900146C3D /* Images.xcassets */,
 				C237556B195127D900146C3D /* Supporting Files */,
 			);
 			path = ClosetMemory;
@@ -743,6 +742,7 @@
 		C237556B195127D900146C3D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				C22FB2891960F3E00020C9F4 /* Default.png */,
 				C237556C195127D900146C3D /* ClosetMemory-Info.plist */,
 				C237556D195127D900146C3D /* InfoPlist.strings */,
 				C2375570195127D900146C3D /* main.m */,
@@ -786,8 +786,8 @@
 		C237559419512CC100146C3D /* AppDelegate */ = {
 			isa = PBXGroup;
 			children = (
-				63AA20E4195C09630066D7C9 /* ZXYAppDelegate.m */,
 				C237559519512CC100146C3D /* ZXYAppDelegate.h */,
+				63AA20E4195C09630066D7C9 /* ZXYAppDelegate.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -1290,6 +1290,7 @@
 				C23755F01951421F00146C3D /* category-icon-100@2x.png in Resources */,
 				C237560A1951421F00146C3D /* nav-bar-icon-setting.png in Resources */,
 				C24E67651953C77400D69509 /* item-info-icon-shape@2x.png in Resources */,
+				C22FB28A1960F3E00020C9F4 /* Default.png in Resources */,
 				C25AEB98195970810015F7D0 /* check_icon@2x.png in Resources */,
 				637623B7195D0F8D00EC7B4D /* iconfont-fenxiang.png in Resources */,
 				C23755F81951421F00146C3D /* category-icon-style2-104@2x.png in Resources */,
@@ -1303,7 +1304,6 @@
 				C292E8B71952B79C00DAB853 /* image-edit-help-background.png in Resources */,
 				C292E8B81952B79C00DAB853 /* image-edit-help-background@2x.png in Resources */,
 				C292E89D195282F300DAB853 /* cell-background.png in Resources */,
-				C2375577195127D900146C3D /* Images.xcassets in Resources */,
 				C23755F21951421F00146C3D /* category-icon-101@2x.png in Resources */,
 				C292E8A21952895B00DAB853 /* icon-score@2x.png in Resources */,
 				C24E680C195475AD00D69509 /* iconfont-baobeiNF.png in Resources */,
